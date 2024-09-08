@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header ul {
+    border: 5px solid gray;
+    background-color: black;
+    text-align: center;
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+}
+header ul li {
+    display:inline-block;
+}
+header a:link, header a:visited {
+    text-decoration: none;
+    padding: 15px;
+    display:inline-block;
+    color: white;
+}
+header a:hover {
+background-color: gray;
+color: black;
+}
+
+.apresentacao {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    margin: 20px 0;
+    padding: 20px; 
+    border-radius: 8px;
+}
+
+.celulares{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 20px; 
+    border-radius: 8px;
+    color: black;
+}
+.whatsapp{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 20px; 
+    border-radius: 8px;
+
+}
+
+.mapa{
+     background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    padding: 20px; 
+    border-radius: 8px;
+    color: black;
+    text-align: justify;
+
+}
+
+section {
+    padding: 50px;
+}
+section p {
+    margin: 25px;
+}
+footer{
+    background-color: black;
+    padding: 30px;
+    
+}
+footer p {
+    color: white;
+    text-align: center;
+}
+
+iframe {
+    width: 1750px;
+}
+button:hover{
+    background-color: greenyellow;
+}
+.apresentacao h1{
+    color: black;
+}
+.mapa h1{
+    color: black;
+}
+.celulares h2{
+    color: black;
+}
+h2:hover{
+    color: gray;
+}
+
+body {
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o preenchimento padrão do body */
+    background-color: black; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
